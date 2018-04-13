@@ -1,0 +1,26 @@
+# /etc/conf.d/sponsercoind: config file for /etc/init.d/sponsercoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sponsercoin/sponsercoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sponsercoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sponsercoind.pid"
+
+# Where to write sponsercoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sponsercoind"
+
+# User and group to own sponsercoind process
+#BITCOIND_USER="sponsercoin"
+#BITCOIND_GROUP="sponsercoin"
+
+# Path to sponsercoind executable
+#BITCOIND_BIN="/usr/bin/sponsercoind"
+
+# Nice value to run sponsercoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
